@@ -1,8 +1,6 @@
 import "./styles.css";
 
 const Button = ({ handleClick, nextPage, children }) => {
-
-
   return (
     <button
       className="button"
