@@ -1,0 +1,12 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background: steelblue;
+  font-size: 20px;
+}
+
+.button:hover {
+  filter: saturate(10);
+}
