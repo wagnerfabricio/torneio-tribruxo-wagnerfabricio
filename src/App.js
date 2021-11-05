@@ -36,10 +36,8 @@ function App() {
   };
 
   useEffect(() => {
-    if (Object.entries(selected).length !== 0) {
-      if (selecteds.length <= 2) {
-        setSelecteds([...selecteds, selected]);
-      }
+    if (Object.entries(selected).length !== 0 && selecteds.length <= 2) {
+      setSelecteds([...selecteds, selected]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected]);
