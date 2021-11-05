@@ -11,7 +11,7 @@ function App() {
   const [selecteds, setSelecteds] = useState([]);
 
   useEffect(() => {
-    fetch("http://hp-api.herokuapp.com/api/characters/students")
+    fetch("https://hp-api.herokuapp.com/api/characters/students")
       .then((results) => results.json())
       .then((results) =>
         setStudents(
