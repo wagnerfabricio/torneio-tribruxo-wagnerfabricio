@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import MainPage from "./MainPage";
-import TournamentPage from "./TourneoPage";
+import TournamentPage from "./TournamentPage";
 
 import "./App.css";
 
@@ -60,16 +60,17 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <main className="container">
         {page ? (
           <MainPage nextPage={nextPage} handleClick={selectRandomStudant} />
         ) : (
           <TournamentPage
             selecteds={selecteds}
+            setSelecteds={setSelecteds}
             handleClick={selectRandomStudant}
           />
         )}
-      </header>
+      </main>
     </div>
   );
 }

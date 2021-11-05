@@ -1,0 +1,38 @@
+.wizard-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wizard-card figure {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border: 1px solid yellow;
+  border-radius: 5%;
+  margin-bottom: 0;
+}
+
+figure.color1 {
+  border: 2px solid green;
+}
+
+figure.color3 {
+  border: 2px solid red;
+}
+
+.wizard-card img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5%;
+}
+
+.wizard-card p:first-of-type {
+  margin-top: 0;
+}
+
+.wizard-card p:last-of-type {
+  font-family: "Henny Penny", cursive;
+}

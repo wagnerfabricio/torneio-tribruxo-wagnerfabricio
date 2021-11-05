@@ -1,0 +1,14 @@
+.main,
+.tournament-page {
+  padding: 30px;
+  border: 2px solid grey;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 77px 34px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 77px 34px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 77px 34px rgba(0, 0, 0, 0.75);
+}
+
+.main p {
+  line-height: 50px;
+}
