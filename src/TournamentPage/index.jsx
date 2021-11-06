@@ -2,12 +2,7 @@ import Button from "../Button";
 
 import "./styles.css";
 
-const TournamentPage = ({ selecteds, setSelecteds, handleClick }) => {
-  const sortAgain = () => {
-    setSelecteds([]);
-    handleClick();
-  };
-
+const TournamentPage = ({ selecteds, handleClick }) => {
   return (
     <section className="tournament-page">
       <div className="wizard-list">
@@ -21,7 +16,7 @@ const TournamentPage = ({ selecteds, setSelecteds, handleClick }) => {
           </div>
         ))}
       </div>
-      <Button handleClick={sortAgain}>Tentar Novamente</Button>
+      <Button handleClick={handleClick}>Tentar Novamente</Button>
     </section>
   );
 };
