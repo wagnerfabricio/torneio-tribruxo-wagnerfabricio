@@ -4,6 +4,14 @@
   justify-content: center;
 }
 
+.wizard-card {
+  transition: all 0.5s;
+}
+
+.wizard-card:hover {
+  transform: scale(1.1);
+}
+
 .wizard-card figure {
   position: relative;
   width: 250px;
